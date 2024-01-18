@@ -1,0 +1,5 @@
+langchain==0.2.0
+langchain-community==0.2.0
+qdrant-client==0.2.0
+openai==0.28.0
+streamlit==1.19.0
