@@ -64,3 +64,5 @@ qa = RetrievalQA.from_chain_type( llm=OpenAI(), chain_type = "stuff",
 querry = "Can you please suggest me gift for a date"
 response = qa.invoke(querry)
 print(response['result'])
+
+print("Successfully change branch name")
